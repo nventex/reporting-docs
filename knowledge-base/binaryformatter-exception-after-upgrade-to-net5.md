@@ -26,6 +26,7 @@ res_type: kb
 The following error: **Error registering the viewer with the service.
 An error has occurred.
 BinaryFormatter serialization and deserialization are disabled within this application** might be thrown after upgrade to .NET 5 from .NET Core or Blazor Projects.
+If you did not use AddInSet, you would get the error **Incorrect value (null) deserialized. Make sure you are using CacheStorage inside single-instance application deployment only.**
 
 ## Error Message
 Error registering the viewer with the service.
